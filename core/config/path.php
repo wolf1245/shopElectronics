@@ -19,5 +19,5 @@ define("__CONTROLLERS",$_SERVER['DOCUMENT_ROOT']."/core/controllers/");
 // модель
 define("__MODELS",$_SERVER['DOCUMENT_ROOT']."/core/models/");
 // внешний вид
-define("__VIEWS",$_SERVER['DOCUMENT_ROOT']."/core/views/");
+define("__VIEWS",$_SERVER['DOCUMENT_ROOT']."/views/");
 

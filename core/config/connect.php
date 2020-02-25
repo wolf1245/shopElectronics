@@ -13,7 +13,7 @@ namespace connect;
 class connect {
     
     protected function sql() {
-       return $pdo = new PDO("mysql:host=localhost;dbname=shop","$_ENV[user]","");
+       return $pdo = new PDO("mysql:host=$_ENV[host];$_ENV[dbname]","$_ENV[user]","");
     }
     
 }
